@@ -1,19 +1,17 @@
 [env]
-TERM= "xterm-256color"
+TERM = "xterm-256color"
 
 [window]
 padding.x = 5
 padding.y = 5
 
-decorations="none"
+decorations = "none"
 
 [font]
-normal.family ="UbuntuMono Nerd Font"
+normal.family = "UbuntuMono Nerd Font"
 size = 16
 
 [general]
 #themes
 import = ["~/.config/alacritty/themes/themes/gruvbox_dark.toml"]
 
-[terminal]
-shell.program = "tmux"
